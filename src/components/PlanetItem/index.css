@@ -1,1 +1,10 @@
 /* Write your CSS here */
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planet-img {
+  width: 400px;
+}
