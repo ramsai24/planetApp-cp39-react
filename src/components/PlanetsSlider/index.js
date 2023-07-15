@@ -15,12 +15,15 @@ const PlanetSlider = props => {
   }
   return (
     <div className="app-container">
-      <div className="slider-container ">
-        <Slider {...settings}>
-          {planetsList.map(each => (
-            <PlanetItem key={each.id} data={each} />
-          ))}
-        </Slider>
+      <div className="bg-container">
+        <h1>PLANET </h1>
+        <div className="slider-container ">
+          <Slider {...settings}>
+            {planetsList.map(each => (
+              <PlanetItem key={each.id} data={each} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </div>
   )
